@@ -1,0 +1,427 @@
+html{
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+nav{
+  top: 0px;
+  padding-bottom: 65px;
+  padding-top: 5px;
+  position: sticky;
+  width: 100%;
+  font-style: oblique;
+  color: rgba(3, 174, 255, 0.86);
+  background-color: rgb(246, 237, 110);
+  overflow: visible;
+}
+#Logo{
+  padding: 0;
+  box-sizing: border-box;
+  display: inline;
+  width: 12px;
+}
+#Logo img{
+  margin-top: 10px;
+}
+#Logo li{
+  box-sizing: border-box;
+  margin-left: 7%;
+}
+#Logo li a{
+  padding-top: 0px;
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+nav li{
+  float: left;
+  /*padding: 14px 16px;*/
+}
+nav li a{
+  display: inline-block;
+  color: rgb(78, 146, 247);
+  font-weight: 500;
+  font-size:19px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-right: 80px;
+  margin-left: 40px;
+  text-decoration: none;
+}
+li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: linear-gradient(to right, rgb(255, 0, 0) , rgb(247, 138, 138));
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+.Head{
+  background-image: url("fitness.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 385px 300px;
+}
+.Head h1{
+  text-align: center;
+  font-style: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 45px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+.Main{
+  padding-top: 0px;
+  padding-bottom: 50px;
+  background-color: white;
+  opacity: 1;
+  width: 100%;
+  font-style: 'Ubuntu', sans-serif
+}
+
+.navi nav{
+  display: block;
+  top: 0px;
+  padding-bottom: 65px;
+  padding-top: 5px;
+  position: sticky;
+  width: 100%;
+  font-style: oblique;
+  color: rgba(3, 174, 255, 0.86);
+  background-color: rgb(246, 237, 110);
+  overflow: visible;
+}
+.navi nav ul{
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+.navi nav l1{
+  padding-top: 30px;
+  margin-right: 200px;
+}
+
+.navi nav l2{
+  margin-right: 200px;
+}
+.navi nav li{
+  float: right;
+}
+.navi nav li a{
+  color: white;
+  font-size:30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-right: 80px;
+  margin-left: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+.navi li a:hover{
+  color: rgba(3, 174, 255, 0.86);
+  font-weight: bold;
+}
+
+#Arrow img{
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 50px;
+}
+
+#start{
+  padding-top: 0px;
+  padding-bottom: 80px;
+  background-color: white;
+  opacity: 1;
+  width: 100%;
+}
+#start h1{
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 50px;
+  margin-left: 680px;
+  margin-right: 150px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.format{
+  margin-left: 250px;
+}
+.format a{
+  text-decoration: none;
+}
+.box1{
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  float: left;
+  top: 10%;
+  width: 450px;
+  height: 350px;
+  background-image: url("Blackboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+.box1 h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-left: 60px;
+  margin-top:  120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  width: 80%;
+}
+.box1 h1:hover{
+  color: rgba(3, 174, 255, 0.86);
+}
+.box2{
+  margin: 10px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  float: left;
+  top: 10%;
+  width: 450px;
+  height: 350px;
+  background-image: url("Blackboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+.box2 h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-left: 60px;
+  margin-top:  120px;
+  padding-bottom: 60px;
+  width: 80%;
+}
+.box2 h1:hover{
+  color: rgba(3, 174, 255, 0.86);
+}
+.box3{
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  float: left;
+  top: 10%;
+  width: 450px;
+  height: 350px;
+  background-image: url("Blackboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+.box3 h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-left: 60px;
+  margin-top:  120px;
+  padding-top: 25px;
+  padding-bottom: 60px;
+  width: 80%;
+}
+.box3 h1:hover{
+  color: rgba(3, 174, 255, 0.86);
+}
+
+footer{
+  float: left;
+  background-color: white;
+  width: 100%;
+}
+.motto h1{
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 36px;
+  font-style: italic;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 20px;
+  border-bottom-color: rgb(246, 247, 3);
+}
+.lowImg{
+  float: left;
+  width: 25%;
+  height: 10%;
+}
+.names{
+  float: left;
+  width: 20%;
+}
+.names h1{
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names ul{
+  list-style: none;
+}
+.names li{
+  padding: 0.8%;
+}
+.names li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.names1{
+  float: left;
+  width: 15%;
+}
+.names1 h1{
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names1 ul{
+  list-style: none;
+}
+.names1 li{
+  padding: 0.8%;
+}
+.names1 li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.names2{
+  float: left;
+  width: 20%;
+}
+.names2 h1{
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names2 ul{
+  list-style: none;
+}
+.names2 li{
+  padding: 0.8%;
+}
+.names2 li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.names3{
+  float: left;
+  width: 15%;
+}
+.names3 h1{
+  text-decoration: none;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names3 ul{
+  list-style: none;
+}
+.names3 li{
+  padding: 0.8%;
+}
+.names3 li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+footer img{
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 55px;
+  margin-left: 18%;
+  max-width:280px;
+  max-height:115px;
+  width: auto;
+  height: auto;
+}
+.Links{
+  margin-left: 31.7%;
+  margin-top: 2%;
+  padding-bottom: 40px;
+  float: left;
+}
+.Links a{
+  color: black;
+}
+.Links a:hover{
+  color: rgba(3, 174, 255, 0.86);
+  font-weight: 400;
+}
+.Links p{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  color: black;
+}
+
+#copy{
+  margin=left;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="AlexPart.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>
+The Equation - The Happiness Equation
+    </title>
+    <nav>
+      <ul>
+        <div id="Logo">
+        <li style="float:left"><a href="../index.html"><img src="../Canva1.png" alt="Logo" width= 40px height = 40px></a></li>
+        </div>
+        <li style="float:right"><a href="../users/login.html" class="hvr-underline-from-center">Login</a></li>
+        <li style="float:right"><a href="../actions/Action.html" class="hvr-underline-from-center">Actions</a></li>
+        <li style="float:right"><a href="AlexPart.html"class="hvr-underline-from-center">The Equation</a></li>
+      </ul>
+    </nav>
+  </head>
+    <body>
+      <div class= "f1">
+      <br>
+    <h1 style="text-align:center;">WHAT IS THE HAPPINESS EQUATION?</h1>
+    </div>
+      <div class="Main">
+          <article class="Text">
+            <div class="Blur">
+            <h2 style="text-align: left;"><br><br><br>“The Happiness Equation” started with the simple idea of making people happier. We realised how many of our friends were stressed with university and work and payed little attention to their overall wellbeing. They said they didn’t have time for themselves or that they weren’t as happy as before and didn’t know how to change that. It was a common problem many had and we wanted to help them.<br><br>
+    Luckily, we happened to finish a subject about creating websites so we thought of applying the knowledge and provide a solution to their problems.<br><br>
+    This website helps you keep track of your happiness level from the moment you join us. It provides a platform where you can do quizzes and understand your current happiness level and read articles to give a different perspective of happiness. There are various good actions people can complete and receive medals as well as a challenge to receive pictures printed for free. We also believe in the power of listening and expressing oneself. “The Happiness Equation” is a big community, people from all around the world can share their stories and what happiness means to them.<br><br>
+    In this way, we hope we can bring people together and radiate positivism and hope to the world by the good actions of people.<br><br>
+  </h2>
+            <div id="GNH">
+            </div>
+           <h1 style="text-align:left;">What is Gross National Happiness (GNH)?</h1><br>
+           <h3>Source: http://www.ophi.org.uk/policy/national-policy/gross-national-happiness-index/</h3><br>
+           <h2 style="text-align: left;"><br>Around 1972, there was a king in Bhutan who
+                   questioned the use of Gross Domestic Product to determine the development
+                    of a country. Instead, he proposed the Gross National Happiness index.<br><br>
+                     It looked into more than one aspect of the population, from psychological health
+                      and living standards to ecological diversity and cultural diversity, a
+                      country’s wellbeing is determined by the population’s happiness.</h2><br><br>
+          <h2 style="text-align:left;">The GNH index looks into 9 aspects:</h1><br><br>
+          <h2 style="text-align:left:">
+            <ul>
+              <li>Psychological wellbeing</li>
+              <li>Health</li>
+              <li>Education</li>
+              <li>Time use</li>
+              <li>Cultural diversity and resilience</li>
+              <li>Good governance</li>
+              <li>Community vitality</li>
+              <li>Ecological diversity and resilience</li>
+              <li>Living standards</li>
+            </ul>
+            </div>
+            <div class="Intermap" id="mapp">
+              <div class="mainmap">
+                <script src="http://d3js.org/d3.v3.min.js"></script>
+                <script src="http://d3js.org/topojson.v1.min.js"></script>
+                <script src="datamaps.world.min.js"></script>
+                <div id="container1" style="position: relative; width: 80%; height: 800px;"></div>
+                   <script>
+                     //basic map config with custom fills, mercator projection
+                    var map = new Datamap({
+                      scope: 'world',
+                      element: document.getElementById('container1'),
+                      projection: 'mercator',
+                      height: 1250,
+                      fills: {
+                        defaultFill: '#f0af0a',
+                        lt50: 'rgba(0,244,244,0.9)',
+                        gt50: 'red',
+                        gr20: 'rgb(63, 231, 13)',
+                        drgr: 'rgb(13, 108, 11)',
+                        ltrd: 'rgb(242, 123, 79)',
+                        rn34: 'rgb(134, 6, 247)'
+                      },
+
+                      data: {
+                        USA: {fillKey: 'gr20' },
+                        IND: {fillKey: 'ltrd' },
+                        RUS: {fillKey: 'lt50' },
+                        CAN: {fillKey: 'drgr' },
+                        BRA: {fillKey: 'gt50' },
+                        COL: {fillKey: 'gt50' },
+                        AUS: {fillKey: 'drgr' },
+                        NZ: {fillKey: 'drgr'},
+                        ZAF: {fillKey: 'gt50' },
+                        ARG: {fillKey: 'rn34' },
+                        MAD: {fillKey: 'gt50' }
+                      }
+                    })
+
+                   </script>
+              </div>
+            </div>
+          <div class="Blur2">
+          </h2><br><br>
+         <h2 style="text-align:left;">In the 2011 GNH index, people were classified into 4 groups:</h1><br><br>
+         <h2 style="text-align:left:">
+           <ol>
+             <li><b>Unhappy:</b> Achieved less than 50% on the overall domains</li>
+             <li><b>Narrowly happy:</b> Achieved 50-65% on the overall domains</li>
+             <li><b>Extensively happy:</b> Achieved 66-76% on the overall domains</li>
+             <li><b>Deeply happy:</b> Achieved 77% or more on the overall domains</li>
+           </ol>
+         </h2>
+         <br><br>
+         <h1>But how does the GNH apply to ’The Happiness Equation’?</h1><br><br>
+         <h2>Through the GNH, the king made emphasis on the idea of development with values. Soon, other countries applied this way of measuring wellbeing. Our main goal for this website is to make a happier world just as the king wanted to as well.</h2>
+<br>
+<br>
+<br>
+
+         <h1 style="text-align:left;" id="facts">Facts and Stats</h1><br><br>
+         <img src="bargraph.png " alt="bargraph"><br>
+         <h2 style="text-align:left:">
+           <ul>
+             <li>Happiness grows where you’re older</li>
+             <li>Job satisfaction can impact your happiness levels</li>
+             <li>Music can elevate happiness</li>
+             <li>Australia is one of the happiest places on Earth; also North America</li>
+             <li>Most parts of Africa and small areas of lower west Asia are some of the unhappiest places on Earth</li>
+             <li>Relationships are stronger when both partners are equally as happy as each other</li>
+             <li>Married people are 10 % happier than unmarried people</li>
+             <li>Healthy people are 20% happier on average</li>
+             <li>People living in a rich neighbourhood in a poor country are generally happier</li>
+             <li>As of  2015, Denmark is the happiest country, followed by Switzerland</li>
+             <li>Australia is, as of 2015, the 9th most happiest country worldwide</li>
+           </ul><br><br>
+           <div id="quotes">
+             <h1>QUOTES</h1><br><br>
+             <h4>“Folks are usually about as happy as they make their minds up to be.” </h4><br>
+             <h3>- Abraham Lincoln</h3><br><br>
+             <h4>“Count your age by friends, not years. Count your life by smiles, not tears.” </h4><br>
+             <h3>- John Lennon</h3><br><br>
+             <h4>“We tend to forget that happiness doesn’t come as a result of getting something we don’t have, but rather of recognizing and appreciating what we do have.”</h4><br>
+             <h3>- Frederick Keonig</h3><br><br>
+             <h4>Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.”</h4><br>
+             <h3>- 140 – William James</h3><br><br>
+             <h4>"Nurture your mind with great thoughts. To believe in the heroic makes heroes"</h4><br>
+             <h3>- Benjamin Disraeli</h3><br><br>
+           </div>
+          </div>
+
+          </article>
+      </div>
+  </body>
+  <footer>
+    <div class="motto">
+        <h1>Rethink Rediscover Relax </h1>
+      </div>
+      <div class="sites">
+        <div class="lowImg">
+          <img src="../dasas.png" alt="Logo">
+        </div>
+        <div class="names">
+          <h1>The Equation</h1>
+          <ul>
+            <li><a href="AlexPart.html#GNH">GNH</a></li>
+            <li><a href="AlexPart.html#facts">Facts and stats</a></li>
+            <li><a href="AlexPart.html#mapp">Map</a></li>
+            <li><a href="AlexPart.html#quotes">Quotes</a></li>
+          </ul>
+        </div>
+        <div class="names1">
+          <h1>Actions</h1>
+          <ul>
+            <li><a href="../actions/Work.html">Work</a></li>
+            <li><a href="../actions/community.html">Community</a></li>
+          </ul>
+        </div>
+        <div class="names2">
+          <h1>Users</h1>
+          <ul>
+            <li><a href="../users/login.html">Sign-in</a></li>
+            <li><a href="../users/actionsa.html">Actions</a></li>
+            <li><a href="../users/artic.html">Articles</a></li>
+            <li><a href="../users/vids.html">Videos</a></li>
+            <li><a href="../users/useme.html">Useful links</a></li>
+          </ul>
+        </div>
+        <div class="names3">
+          <h1>Miscellaneous</h1>
+          <ul>
+            <li><a href="../Misc/contact.html">Contact Us</a></li>
+            <li><a href="../Misc/pp.html">Privacy Policy</a></li>
+            <li><a href="../Misc/faq.html">Helpdesk/FAQ</a></li>
+            <li><a href="../Misc/feedbackForm.html">Feedback Form</a></li>
+            <li><a href="../Misc/styleguide.html">Styleguide</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Links">
+        <p><a href="../Misc/contact.html">Contact us</a></p>
+        <p><a href="../Misc/pp.html">Privacy Policy</a></p>
+        <p><a href="../Misc/faq.html">Helpdesk/FAQ</a></p>
+        <p><a href="../Misc/feedbackForm.html">Feedback Form</a></p>
+        <p>Copyright &copy 2017</p>
+      </div>
+  </footer>
+</html>

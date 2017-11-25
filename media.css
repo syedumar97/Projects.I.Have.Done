@@ -1,0 +1,17 @@
+@media screen and (max-width: 980px){
+  #BImage{
+    width: 80%;
+  }
+  #FContent{
+    width: 60%;
+  }
+  #Video{
+    width: 60%;
+  }
+  #Article{
+    width: 60%;
+  }
+  #Article2{
+    width: 60%;
+  }
+}

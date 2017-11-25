@@ -1,0 +1,485 @@
+html{
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body{
+  margin-top:30px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+nav{
+  top: 0px;
+  padding-top: 5px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  font-style: oblique;
+  color: rgb(255, 255, 255);
+  background-color: rgb(246, 237, 110);
+  overflow: hidden;
+}
+#Logo{
+  padding: 0;
+  box-sizing: border-box;
+  display: inline;
+  width: 12px;
+}
+#Logo img{
+  margin-top: 10px;
+}
+#Logo li{
+  box-sizing: border-box;
+  margin-left: 7%;
+}
+#Logo li a{
+  padding-top: 0px;
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+nav li{
+  float: left;
+  /*padding: 14px 16px;*/
+}
+nav li a{
+  display: inline-block;
+  color: rgb(78, 146, 247);
+  font-weight: 500;
+  font-size:19px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-right: 80px;
+  margin-left: 40px;
+  text-decoration: none;
+}
+li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: linear-gradient(to right, rgb(255, 0, 0) , rgb(247, 138, 138));
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+#BImage{
+  position: static;
+  display: block;
+  width: 100%;
+  background-image: url("desktop-nature-wallpaper-in-hd-1080p-dowload.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  top: 75%;
+  height: 1069px;
+  background-size: cover;
+  background-position: center;
+}
+#FContent{
+    color: black;
+    padding: 375px;
+
+}
+#FContent h2{
+  margin: 0px;
+  background-color: rgba(246, 255,255, 0.66);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-blend-mode: lighten;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+
+}
+ .button{
+   margin-left: 40%;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 100px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  background-color: rgba(3, 174, 255, 0.86);
+  background-position: center;
+
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#Article{
+  /*box-sizing: border-box;*/
+  margin: 10px;
+  margin-top: 222px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 10px;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.73);
+  height: 420px;
+  width: 420px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+#Article img{
+  border: 5px;
+  border-radius: 100%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+#Article h2{
+
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+#Article h2:hover{
+  background-color: rgb(246, 237, 110);
+  font-weight: 400;
+}
+#Article p{
+  margin-top: 7%;
+  color: black;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(246, 237, 110);
+  padding: 10px;
+}
+#Video{
+  margin: 10px;
+  margin-top: 222px;
+  margin-bottom: 20px;
+  float: left;
+  border: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.73);
+  top: 10%;
+  width: 560px;
+  height: 315px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+#Video h2{
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 350;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  margin-top: 85px;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+#Video h2:hover{
+  background-color: rgb(246, 237, 110);
+  font-weight: 400;
+}
+#Video img{
+  margin: auto;
+  margin-top: 15%;
+  border: 5px;
+  border-radius: 100%;
+  margin-left: 30%;
+
+}
+.Article2{
+  float: left;
+  position: relative;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  padding-right: 10px;
+  margin-right: 15px;
+  width: 150px;
+  border: 10px;
+  padding: 15px;
+}
+.imga{
+  height: 475px;
+  border: 10px;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.73);
+}
+.Article2-text{
+  position: absolute;
+  font-size: 27px;
+  font-weight: 300;
+  font-style: normal;
+  top: 13%;
+  left: 22%;
+  bottom: 0px;
+  margin-right: -150%;
+  height: 200px;
+  width: 300px;
+  padding: 35px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.quotes{
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  position: absolute;
+  font-size: 30px;
+  top: 390px;
+  left: 40%;
+  bottom: 0px;
+  margin-right: -10%;
+  background-color: rgba(255, 255, 255, 0.66);
+  width: 182%;
+  height: 40px;
+  padding: 15px;
+  text-align: center;
+  left: 30px;
+  padding-left: 10px;
+  padding-right: 45px;
+}
+.quotes:hover{
+  font-weight: 400;
+  background-color: rgb(246, 237, 110);
+}
+#Join{
+  float: left;
+  background-image: url("sun.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  top: 75%;
+  height: 1069px;
+}
+#Join a{
+  text-decoration: none;
+}
+#Join h2{
+  margin-bottom: 30px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin-top: 19%;
+  background-color: rgba(255, 255, 255, 0.66);
+  width: 26%;
+  margin-left: 37%;
+}
+#Join h2:hover{
+  background-color: rgba(255, 255, 255);
+  color: rgba(3, 174, 255, 0.86);
+}
+#Join p{
+  font-size: 40px;
+  font-weight: 200;
+  background-color: rgba(3, 174, 255, 0.86);
+  text-align: center;
+  color: black;
+  padding:20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+footer{
+  float: left;
+  background-color: white;
+  width: 100%;
+}
+.motto h1{
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 36px;
+  font-style: italic;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 20px;
+  border-bottom-color: rgb(246, 247, 3);
+}
+.lowImg{
+  float: left;
+  width: 25%;
+  height: 10%;
+}
+.names{
+  float: left;
+  width: 20%;
+}
+.names h1{
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names ul{
+  list-style: none;
+}
+.names li{
+  padding: 0.8%;
+}
+.names li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.names1{
+  float: left;
+  width: 15%;
+}
+.names1 h1{
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names1 ul{
+  list-style: none;
+}
+.names1 li{
+  padding: 0.8%;
+}
+.names1 li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.names2{
+  float: left;
+  width: 20%;
+}
+.names2 h1{
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names2 ul{
+  list-style: none;
+}
+.names2 li{
+  padding: 0.8%;
+}
+.names2 li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.names3{
+  float: left;
+  width: 15%;
+}
+.names3 h1{
+  text-decoration: none;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.names3 ul{
+  list-style: none;
+}
+.names3 li{
+  padding: 0.8%;
+}
+.names3 li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+footer img{
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 55px;
+  margin-left: 18%;
+  max-width:280px;
+  max-height:115px;
+  width: auto;
+  height: auto;
+}
+.Links{
+  margin-left: 31.7%;
+  margin-top: 2%;
+  padding-bottom: 40px;
+  float: left;
+}
+.Links a{
+  color: black;
+}
+.Links a:hover{
+  color: rgba(3, 174, 255, 0.86);
+  font-weight: 400;
+}
+.Links p{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  color: black;
+}
