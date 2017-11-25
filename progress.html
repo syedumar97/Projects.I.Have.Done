@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../reset.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,700" rel="stylesheet">
+<title>Loading</title>
+<style>
+#myProgress {
+  margin-top: 20%;
+  margin-left: 14%;;
+  width: 70%;
+  background-color: #ddd;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("unnamed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 17%;
+  padding-top: 4%;
+  padding-bottom: 14%;
+  background-color: rgb(206, 242, 28);
+}
+#myBar {
+  width: 0%;
+  height: 40px;
+  background-color: #0062fb;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+</style>
+<body>
+
+
+
+<div id="myProgress">
+  <div id="myBar">0%</div>
+</div>
+
+<br>
+<h1 onmouseover="move()">Come <u>down</u> to the good side!</h1>
+
+<script>
+function move() {
+  var elem = document.getElementById("myBar");
+  var width = 0;
+  var id = setInterval(frame, 15);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      redirect();
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+function redirect(){
+  window.location.href = "home.html";
+}
+</script>
+
+</body>
+</html>
