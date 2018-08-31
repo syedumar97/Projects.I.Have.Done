@@ -1,5 +1,7 @@
 # Projects.I.Have.Done
 A repository with original code of some of my projeccts ranging from University projects to home projects. I don't usually include good documentation in my code so they can be a bit harder to understand. 
+
+*__Update, August 2018:__ I know there are a lot of files and while searching can be hard, I have tried my best to point out the files in each of my projects. If you are after a particular file that I have not mentioned here, feel free to use `CTRL + F`. :D*
 ## The University of Sydney
 ### INFO1003 - Foundations of Information Technology
 
@@ -60,7 +62,7 @@ Made this project at the same time as I visited Sydney for the first time. This 
  * Displays departures and Arrivals.
  * Implemented a User management system where only registered users/Admins can log on.
  * Admins can change times of the flights.
- * Seamless navigation throuhout the app.
+ * Seamless navigation throughout the app.
  * In-built powerful search.
  
 The app runs when you put [`main.cpp`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/main.cpp), [`Arrivals.txt`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Arrivals.txt), [`Departures.txt`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Departures.txt), [`Passwords.txt`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Passwords.txt) and [`ClearScreen.h`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/ClearScreen.h) in the same folder. You also need to compile [`main.cpp`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/main.cpp) from a compatible C++ compiler. 
