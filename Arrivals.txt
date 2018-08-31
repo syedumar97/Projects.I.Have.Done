@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------
+FL.NO.   Airline                From             Status            ETA           Gate
+=======================================================================================
+EY564	 Emirates	        Dallas	         Arrived	   Nil	         14A
+AI911	 Air India	        Riyadh	         Arrived	   Nil	         12
+6E210	 IndiGo	                Mumbai	         Arrived	   Nil	         17
+EY323	 Emirates	        Dubai	         Arriving Now	   Nil	         16
+QA321	 Qatar Airways	        Athens	         Arriving Now	   Nil	         15
+LT311	 Lufthansa	        Munich	         Arrived	   Nil	         13
+QW151	 Qantas	                Adelaide	 Arrived	   Nil	         18
+MH370	 Malaysian Airlines	Kuala Lumpur	 Delayed	   2:45 PM       20
+6E875 	 IndiGo	                Chennai	         Delayed	   3:00 PM       22
+AA6657	 American Airlines	New York City	 On Time           2:35 PM       TBA
+6E980	 IndiGo	                Bengaluru	 On Time           4:00 PM       TBA
+AI952	 Air India	        Dubai	         On Time           4:45 PM       TBA
+CX649	 Cathay Pacific	        Hong Kong        On Time           7:00 PM       TBA
+LT313	 Lufthansa	        Berlin	         On Time           8:25 PM       TBA
+QW452 	 Qantas	                Sydney	         On Time           9:30 PM       TBA
+6E423	 IndiGo	                Delhi	         On Time           10:00 PM      TBA
+WY696    Oman Air               Cairo            On Time           10:30 PM      TBA
+ET121    Eitihad Airways        Manchester       On Time           11:00 PM      TBA
+QA911    Qatar Airways          Barcelona        On Time           11:15 PM      TBA
+EY711    Emirates               Madrid           On Time           11:45 PM      TBA
+AA111    Air Asia               Jakarta          On Time           12:30 AM      TBA

@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------------------------------
+FL.NO.    Airline                   Destination           Status             ETA           Gate
+======================================================================================================
+AI966	  Air India       	    Jeddah	          Boarding           12:30 PM	   Gate:32A
+AI933	  Air India 	            Dammam	          Boarding           12:50 PM	   Gate:34B
+AI292	  Air India 	            Chicago	          On Time            1:25 PM       Gate:45
+EI373	  Emirates	            Dubai	          On Time            2:45 PM	   Gate:42
+JW321	  Jet Airways	            Rome	          On Time            3:35 PM       Gate:40
+BB211	  British Airways	    Rio	                  On Time            3:55 PM       Gate:32B
+QW111	  Qantas	            Sydney	          On Time            4:30 PM       Gate:TBD
+MH340	  Malaysian Airlines	    Kuala Lumpur	  On Time            5:15 PM       Gate:TBD
+AS346	  Air Asia	            Arkansas	          Delayed            5:40 PM       Gate:TBD
+TU323	  Turkish Airlines	    Istanbul	          Delayed            7:00 PM	   Gate:TBD
+DD839 	  Delta	                    Washington D.C	  On Time            7:55 PM       Gate:TBD
+QA665	  Qatar Airways	            Doha	          On Time            8:30 PM       Gate:TBD
+ED5455	  Etihad Airways	    Abu Dhabi	          On Time            9:20 PM       Gate:TBD
+AF142	  Air France	            Paris	          On Time            9:50 PM	   Gate:TBD
+QW117	  Qantas	            Melbourne	          On Time            10:10 PM	   Gate:TBD
+MH376	  Malaysian Airlines	    Singapore             On Time            11:45 PM      Gate:TBD
+LT421     Lufthansa                 Berlin                On Time            12:00 AM      Gate:TBD
+SV766     Saudi Arabian Airlines    Dammam                On Time            12:30 AM      Gate:TBD
