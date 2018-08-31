@@ -50,7 +50,21 @@ The game can end in one of the following ways:
 
  - ***[Firebot](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Firebot.java):*** Rural firefighters continually backburn bushland in a controlled manner to reduce the risk of hazardous bushfires. In this assignment you will implement a simulation of a controlled burn within a region of land. Trees of varying heights are scattered throughout the region and fires are started at particular locations. The simulation operates on a daily time schedule where the fire spreads to neighbouring trees as each day passes according to the wind direction.  
  *Note:* Contains class files [`Simulation.java`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Simulation.java), [`Tree.java`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Tree.java) and [`Perlin.java`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Perlin.java)(This file was provided by the School of IT and is not my work).
-  
+ 
+---  
+ 
+ ## Home Projects
+ 
+ ### Aiport Management System
+Made this project at the same time as I visited Sydney for the first time. This project is a command-line C++ project which simulates a regular Airport airplane traffic management system. 
+ * Displays departures and Arrivals.
+ * Implemented a User management system where only registered users/Admins can log on.
+ * Admins can change times of the flights.
+ * Seamless navigation throuhout the app.
+ * In-built powerful search.
+ 
+The app runs when you put [`main.cpp`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/main.cpp), [`Arrivals.txt`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Arrivals.txt), [`Departures.txt`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Departures.txt), [`Passwords.txt`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/Passwords.txt) and [`ClearScreen.h`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/ClearScreen.h) in the same folder. You also need to compile [`main.cpp`](https://github.com/syedumar97/Projects.I.Have.Done/blob/master/main.cpp) from a compatible C++ compiler. 
+
 --- 
    **That's all there is for now! :)**  
    **[Click me](https://github.com/syedumar97/Projects.I.Have.Done#projectsihavedone) to go top of this page.**
